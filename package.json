@@ -1,0 +1,54 @@
+{
+  "author": "Jonathan Kemp <kempdogg@gmail.com> (http://jonkemp.com/)",
+  "bundleDependencies": false,
+  "dependencies": {
+    "brace-expansion": "^1.1.0",
+    "event-stream": "^3.3.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-if": "^1.2.5",
+    "gulp-util": "^3.0.1",
+    "is-relative-url": "^1.0.0",
+    "lodash": "^3.3.1",
+    "multimatch": "^2.0.0",
+    "rla-useref": "1.0.0",
+    "through2": "^0.6.1",
+    "vinyl-fs": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "Parse build blocks in HTML files to replace references to non-optimized scripts or stylesheets.",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jscs": "^2.0.0",
+    "gulp-jshint": "^1.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "mocha": "*",
+    "should": "*"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/jonkemp/gulp-useref",
+  "keywords": [
+    "gulpplugin",
+    "html",
+    "scripts",
+    "css",
+    "optimize",
+    "concat"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "version": "1.0.0",
+  "name": "rla-gulp-useref",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remi0411/gulp-useref.git"
+  },
+  "bugs": {
+    "url": "https://github.com/remi0411/gulp-useref/issues"
+  }
+}
